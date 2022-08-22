@@ -8,18 +8,22 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test:c": "vitest run --coverage"
+    "test:c": "vitest run --coverage",
+    "test:u": "vitest --ui"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.17.1",
     "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
     "@vitest/coverage-c8": "^0.22.1",
+    "@vitest/ui": "^0.22.1",
     "jsdom": "^20.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
